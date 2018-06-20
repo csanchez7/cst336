@@ -1,0 +1,116 @@
+
+body{
+    background-color:#ECECEC;
+    color:#000000;
+}
+
+h1{
+    font-size:2.5em;
+    color:#001100;
+    font-family: Times;
+    margin-bottom:0px;
+    text-transform:uppercase;
+}
+
+h2{
+    font-size:1.5em;
+    color:#001100;
+    font-family: Times;
+    padding-bottom:4px;
+}
+
+h3{
+    font-size:.8em;
+    color:#000000;
+    font-family: Times;
+}
+
+#a1:link{
+    font-size:10px;
+    appearance: button;
+}
+
+
+header,main, nav, footer{
+    text-align:center;
+}
+
+img{
+    border-radius: 10px;
+    padding: 10px;
+    margin:20px;
+}
+
+img:hover{
+    border:2px solid #000000;
+    opacity:.50;
+}
+
+img.active{
+    color: #90CCF4;
+    border:4px solid grey
+}
+
+hr{
+    width:55%;
+}
+
+#hrFooter{
+    width:30%;
+}
+
+nav a{
+    padding:5px;
+    font-size:2.1em;
+    text-decoration:none;
+    color:black;
+}
+nav a:hover{
+    color:#90CCF4;
+    text-decoration:none;
+    background-color:grey;
+}
+nav a.active{
+    color: #FFFFFF;
+    background-color:grey;
+}
+
+#homePageText{
+    clear:left;
+    font-family: Helvetica;
+    font-size:1.2em;
+    color: #787878;
+    background-color:white;
+    width:70%;
+    border: 1px solid #ddd;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#androidText{
+    background-color:#F3D250;
+    color:#FFFFFF;
+    border:4px solid grey
+
+}
+
+#macosText{
+    background-color:#F78888;
+    color:#FFFFFF;
+    border:4px solid grey;
+
+}
+
+#windowsText{
+    background-color:#99FF99;
+    color:#000000;
+    border:4px solid grey;
+
+}
+
+footer{
+    clear:left;
+    font-size:.4;
+    color:#85929E;
+}
+
