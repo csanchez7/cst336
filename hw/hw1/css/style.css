@@ -5,48 +5,80 @@ body{
 }
 
 h1{
-    font-size:4em;
+    font-size:2.5em;
     color:#001100;
     font-family: Times;
     margin-bottom:0px;
+    text-transform:uppercase;
 }
 
 h2{
     font-size:1.5em;
     color:#001100;
-    font-family: Georgia;
-    margin-bottom:0px;
+    font-family: Times;
+    padding-bottom:4px;
+}
+
+h3{
+    font-size:.8em;
+    color:#000000;
+    font-family: Times;
+}
+
+#a1:link{
+    font-size:10px;
 }
 
 header,main, nav, footer{
     text-align:center;
 }
 
-nav a{ /*links within "nav" container*/
-    padding:15px;
-    padding-bottom:4px;
-    font-size:1.8em;
-    text-decoration:none;    /*removes underline*/
-    color:white;             /*by default, links are blue*/
+img {
+    border-radius: 4px;
+    padding: 10px;
+    margin:20px;
+}
+img:hover{
+    border:2px solid #000000;
+    opacity:.50;
 }
 
-nav a:hover{ /*psuedo class*/
-    border-bottom:2px #FFEB3B solid;
-    font-size:2em;
-    color:#FDD835;
+hr{
+    width:55%;
 }
 
+#hrFooter{
+    width:30%;
+}
+
+nav a{
+    padding:5px;
+    font-size:2.1em;
+    text-decoration:none;
+    color:black;
+}
+nav a:hover{
+    color:#90CCF4;
+    text-decoration:none;
+    background-color:grey;
+}
 .active{
-    color: #FDD835;
+    color: #90CCF4;
+    background-color:grey;
 }
 
-#me, #welcomeText{
-    float:left;
-}
-
-#welcomeText{
-    text-align:left;
-    font-size:1.5em;
+#homePageText{
+    clear:left;
+    font-family: Helvetica;
+    /*text-align:center;*/
+    font-size:1.2em;
+    color: #787878;
+    background-color:white;
+    width:70%;
+    border: 1px solid #ddd;
+    margin-left:auto;
+    margin-right:auto;
+    
 }
 footer{
     clear:left;
@@ -78,10 +110,6 @@ td strong{
 ul{
     text-align: left;
     padding-left:200px;
-}
-
-#hr1{
-    width:95%;
 }
 
 .hobby{
