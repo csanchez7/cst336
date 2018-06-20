@@ -7,10 +7,10 @@
 echo "Carlos Sanchez CST336 Internet Programming";
 
 ?>
-
     <br  /> <br  />
-
     <a href= "labs/lab1/" > Lab 1 </a>
+    <br  /> <br  />
+    <a href= "labs/lab2/" > Lab 2 </a>
   
 
 
