@@ -29,6 +29,26 @@ header,main, nav, footer{
     text-align:center;
 }
 
+/* Container holding the image and the text */
+.imageWithText {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size:1.8em;
+    float:left;
+    width: 33.33%;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:grey;
+    padding:5px;
+}
+
 img{
     border-radius: 10px;
     padding: 10px;
@@ -59,11 +79,13 @@ nav a{
     text-decoration:none;
     color:black;
 }
+
 nav a:hover{
     color:#90CCF4;
     text-decoration:none;
     background-color:grey;
 }
+
 nav a.active{
     color: #FFFFFF;
     background-color:grey;
@@ -85,21 +107,18 @@ nav a.active{
     background-color:#F3D250;
     color:#FFFFFF;
     border:4px solid grey
-
 }
 
 #macosText{
     background-color:#F78888;
     color:#FFFFFF;
     border:4px solid grey;
-
 }
 
 #windowsText{
     background-color:#99FF99;
     color:#000000;
     border:4px solid grey;
-
 }
 
 footer{
