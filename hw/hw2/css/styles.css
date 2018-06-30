@@ -1,0 +1,51 @@
+body{
+    color:white;
+    font-family:Georgia;
+    text-transform:lowercase;
+}
+
+h1{
+    font-size:2.5em;
+    color:#FFCE00;
+    text-transform:uppercase;
+    padding:2px;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px grey;
+}
+
+h2{
+    font-size:2em;
+    color:#ededed;
+    margin: 0px auto;
+    text-transform:uppercase;    
+}
+
+#suggestions{
+    color:#30b6d3;
+    font-size:1.2em;
+    text-transform: none;
+}
+
+header, #main, h1, h2{
+    text-align:center;
+}
+
+#albumName{
+    margin:auto;
+    width:900px;
+    background:rgba(47,47,47,0.7);
+    text-align:center;
+    padding:80px;
+    padding-top:15px;
+    padding-bottom:10px;
+}
+
+#albumTracks{
+    padding: 14px;
+}
+
+iframe{
+    padding:10px;
+    background:rgba(0,229,113,0.2);
+}
+

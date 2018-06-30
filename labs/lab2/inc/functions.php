@@ -46,7 +46,7 @@
             ${"randomValue" . $i} = rand(0,3);
             displaySymbol(${"randomValue" . $i}, $i);
             }
-            displayPoints($randomValue1,$randomValue2,$randomValue3,$randomValue3);
+            displayPoints($randomValue1,$randomValue2,$randomValue3,$randomValue4);
         }
         
         
