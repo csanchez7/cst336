@@ -17,7 +17,7 @@
                                 echo "<h2>Notorious B.I.G. - Ready to Die</h2>";
                                 break;
                         case 4: $album = "kanye";
-                                echo "<h2>Kanye - College Dropout</h2>";
+                                echo "<h2>Kanye West - College Dropout</h2>";
                                 break;
                         case 5: $album = "hill";
                                 echo "<h2>Lauryn Hill - Miseducation of Lauryn Hill</h2>";
