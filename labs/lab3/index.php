@@ -5,6 +5,9 @@
     if (isset($_GET['keyword'])) {
         include 'api/pixabayAPI.php';
         $keyword = $_GET['keyword'];
+        if (!empty($_GET['category'])){
+            $keyword=$_GET['category'];
+        }
         $orientation = $_GET['layout'];
         $imageURLs = getImageURLs($keyword,$orientation);
         $backgroundImage=$imageURLs[array_rand($imageURLs)];
@@ -32,8 +35,13 @@
             if (!isset($imageURLs)) { //form has not been submitted
                 echo "<h2>Type a keyword to display a slideshow <br />
                 with random images from Pixabay.com. </h2>";
-            }else{ //form was submitted
-                //print_r($imageURLs);    //checking that $imageURLs is not null
+            }
+            else if(empty($keyword)){
+                    echo "<h2>Please enter a keyword or select a category.</h2>";
+                    print_r("Keyword is: ".$keyword);
+                }
+            else{ //form was submitted
+                //print_r("$imageURLs);    //checking that $imageURLs is not null
         ?>
             
         <!--DisplayCarousel Here-->
@@ -51,7 +59,7 @@
             </ol>
 
 
-            <!--Wrapper for Images-->
+            <!--Wrapper for Images-->   
             <div class = "carousel-inner" role="listbox">
                 <?php
                     for($i=0; $i<7; $i++){
@@ -94,13 +102,13 @@
                 <input type="radio" id="lvertical" name="layout" value = "vertical">
                 <label for = "Vertical"></label><label for="lvertical">Vertical</label>
                 
-                <select name = "catagory">
+                <select name="category">
                     <option value="">Select One</option>
-                    <option value="ocean">Ocean</option>
-                    <option value="sky">Sky</option>
-                    <option value="forest">Forest</option>
-                    <option value="otters">Otters</option>
-                    <option value="apple">Apple</option>
+                    <option name="keyword" value="ocean" >Ocean</option>
+                    <option value="Sky" name="keyword">Sky</option>
+                    <option value="Forest" name="keyword">Forest</option>
+                    <option value="Otters" name="keyword">Otters</option>
+                    <option value="University" name="keyword">University</option>
                 </select>
                 <input type="submit" value="Search"/>
             </form>

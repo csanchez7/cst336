@@ -2,7 +2,8 @@
         opacity:0.9;
         width:100%;
         text-align:center;
-        color:yellow;
+        color:green;
+        text-shadow: 5px 5px #d6d6d6;
     }
     
     input {
@@ -10,7 +11,7 @@
         color: black;
     }
     
-    #carousel-example-generic {
+    #carouselExampleIndicators {
          margin: 0 auto;   
          width: 700px;
     }

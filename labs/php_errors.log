@@ -42,3 +42,9 @@
 [03-Jul-2018 18:04:12 UTC] PHP Stack trace:
 [03-Jul-2018 18:04:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
 [03-Jul-2018 18:04:12 UTC] PHP   2. getImageURLs() /home/ubuntu/workspace/cst336/labs/lab3/index.php:8
+[03-Jul-2018 18:15:05 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 59
+[03-Jul-2018 18:15:05 UTC] PHP Stack trace:
+[03-Jul-2018 18:15:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[03-Jul-2018 20:45:46 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 59
+[03-Jul-2018 20:45:46 UTC] PHP Stack trace:
+[03-Jul-2018 20:45:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
