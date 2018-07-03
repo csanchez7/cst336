@@ -38,7 +38,7 @@
             }
             else if(empty($keyword)){
                     echo "<h2>Please enter a keyword or select a category.</h2>";
-                    print_r("Keyword is: ".$keyword);
+                    // print_r("Keyword is: ".$keyword);
                 }
             else{ //form was submitted
                 //print_r("$imageURLs);    //checking that $imageURLs is not null
@@ -94,7 +94,7 @@
             
             <!--html Form-->
             <form>
-                <input type="text" name="keyword" placeholder="keyword" value= "<?=$_GET['keyword']?>"/>
+                <input type="text" name="keyword" placeholder="enter keyword" value= "<?=$_GET['keyword']?>"/>
                 
                 <input type="radio" id="lhorizontal" name="layout" value = "horizontal">
                 <label for = "Horizontal"></label><label for="lhorizontal">Horizontal</label>
@@ -106,7 +106,7 @@
                     <option value="">Select One</option>
                     <option name="keyword" value="ocean" >Ocean</option>
                     <option value="Sky" name="keyword">Sky</option>
-                    <option value="Forest" name="keyword">Forest</option>
+                    <option value="Dinosaurs" name="keyword">Dinosaurs</option>
                     <option value="Otters" name="keyword">Otters</option>
                     <option value="University" name="keyword">University</option>
                 </select>
