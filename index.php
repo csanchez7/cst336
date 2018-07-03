@@ -13,10 +13,16 @@ echo "Carlos Sanchez CST336 Internet Programming";
     <br  /> <br  />
     <a href= "labs/lab2/" > Lab 2 </a>
     <br  /> <br  />
+    <a href= "labs/lab3/" > Lab 3 </a>
+    <br  /> <br  />
+    <a href= "labs/lab4/" > Lab 4 </a>
+    <br  /> <br  />
     <h3>Homework</h3>
     <a href= "hw/hw1/" > HW 1</a>
     <br  /> <br  />
-    <a href= "hw/hw2/" > HW 2</a>  
+    <a href= "hw/hw2/" > HW 2</a>
+    <br  /> <br  />
+    <a href= "hw/hw3/" > HW 3</a> 
 
 
 </body>
