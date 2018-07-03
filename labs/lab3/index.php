@@ -35,15 +35,15 @@
                 //print_r($imageURLs);    //checking that $imageURLs is not null
         ?>
             
-        <!--//DisplayCarousel Here-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!--DisplayCarousel Here-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             
             <!--Indicators-->
             <ol class = "carousel-indicators">
                 <?php
                     for ($i=0;$i<7;$i++){
-                        echo"<li data-target='#carouse-example-generic' data-slide-to='$i'";
-                        echo ($i==0)?" class = 'active'": "";
+                        echo"<li data-target='#carouselExampleIndicators' data-slide-to='$i'";
+                        echo ($i==0)? "class = 'active'": "";
                         echo "></li>";
                     }
                 ?>
@@ -59,7 +59,7 @@
                         }while (!isset($imageURLs[$randomIndex]));
                 
                         echo '<div class="carousel-item';
-                        echo($i == 0)?"active": "";
+                        echo($i == 0)?" active": "";
                         echo '">';
                         echo '<img src="'. $imageURLs[$randomIndex].'">';
                         echo '</div>';
