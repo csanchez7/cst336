@@ -1,7 +1,12 @@
-<!DOCTYPE html>
 <?php
+    session_start();
 
     include 'functions.php';
+    
+    //Check to see if an item has been added to the cart
+    if(isset($_POST['itemName'])){
+        $_SESSION['cart'] = $_POST['itemName'];
+    }
     
     
     //Checks to see if the form is submitted
@@ -12,7 +17,7 @@
         
     }
 ?>
-
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
