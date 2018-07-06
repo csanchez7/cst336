@@ -23,10 +23,13 @@
             echo "<input type='hidden' name='itemImage' value='$itemImage'>";
             echo "<input type='hidden' name='itemPrice' value='$itemPrice'>";
             
-            echo "<td><button class = 'btn btn-warning'>Add</button></td>";
-            echo "</form>";
-            
+            if ($_POST['itemId']==$itemId){
+               echo "<td><button class = 'btn btn-success'>Added</button></td>";
+            }else{
+               echo "<td><button class = 'btn btn-warning'>Add</button></td>";
+            }
             echo "</tr>";
+            echo "</form>";
          }
          echo "</table>";
       }
@@ -64,5 +67,10 @@
          }
          echo "</table>";
       }
+   }
+   
+   //
+   function displayCartCount(){
+      echo count($_SESSION['cart']);
    }
 ?>
