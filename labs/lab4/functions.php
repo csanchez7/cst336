@@ -47,6 +47,13 @@
             echo "<td><img src='$itemImage'></td>";
             echo "<td><h4>$itemName</h4></td>";
             echo "<td><h4>$itemPrice</h4></td>";
+            
+            //Hidden input element containing item name
+            echo "<form method='post'>";
+            echo "<input type='hidden' name='removeId' value='$itemId'>";
+            echo "<td><button class='btn btn-danger'>Remove</button></td>";
+            echo "</form>";
+
             echo "</tr>";
          }
          echo "</table>";
