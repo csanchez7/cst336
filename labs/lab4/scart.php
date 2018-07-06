@@ -1,6 +1,6 @@
 <?php
     session_start();
-
+    include 'functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -33,13 +33,9 @@
                 <br /> <br /> <br />
                 <h2>Shopping Cart</h2>
                 <!-- Cart Items -->
-                
                 <?php 
                 
-                if (isset($_SESSION['cart'])){
-                    echo $_SESSION['cart'];
-                }
-                
+                displayCart(); 
                 
                 ?>
 

@@ -1,0 +1,68 @@
+[05-Jul-2018 23:28:16 UTC] PHP Warning:  array_push() expects at least 2 parameters, 0 given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:28:16 UTC] PHP Stack trace:
+[05-Jul-2018 23:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:28:16 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:28:24 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 39
+[05-Jul-2018 23:28:24 UTC] PHP Stack trace:
+[05-Jul-2018 23:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[05-Jul-2018 23:29:00 UTC] PHP Warning:  include(function.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 38
+[05-Jul-2018 23:29:00 UTC] PHP Stack trace:
+[05-Jul-2018 23:29:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[05-Jul-2018 23:29:00 UTC] PHP Warning:  include(): Failed opening 'function.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 38
+[05-Jul-2018 23:29:00 UTC] PHP Stack trace:
+[05-Jul-2018 23:29:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[05-Jul-2018 23:29:00 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 39
+[05-Jul-2018 23:29:00 UTC] PHP Stack trace:
+[05-Jul-2018 23:29:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[05-Jul-2018 23:29:30 UTC] PHP Warning:  array_push() expects at least 2 parameters, 0 given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:29:30 UTC] PHP Stack trace:
+[05-Jul-2018 23:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:29:30 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:29:32 UTC] PHP Warning:  array_push() expects at least 2 parameters, 0 given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:29:32 UTC] PHP Stack trace:
+[05-Jul-2018 23:29:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:29:32 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:31:44 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:31:44 UTC] PHP Stack trace:
+[05-Jul-2018 23:31:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:31:44 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:31:46 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:31:46 UTC] PHP Stack trace:
+[05-Jul-2018 23:31:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:31:46 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:32:01 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 39
+[05-Jul-2018 23:32:01 UTC] PHP Stack trace:
+[05-Jul-2018 23:32:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[05-Jul-2018 23:32:27 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:32:27 UTC] PHP Stack trace:
+[05-Jul-2018 23:32:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:32:27 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:34:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:34:09 UTC] PHP Stack trace:
+[05-Jul-2018 23:34:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:34:09 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:38:08 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:38:08 UTC] PHP Stack trace:
+[05-Jul-2018 23:38:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:38:08 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:38:11 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:38:11 UTC] PHP Stack trace:
+[05-Jul-2018 23:38:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:38:11 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:45:06 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 13
+[05-Jul-2018 23:45:06 UTC] PHP Stack trace:
+[05-Jul-2018 23:45:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:45:06 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:13
+[05-Jul-2018 23:50:39 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 12
+[05-Jul-2018 23:50:39 UTC] PHP Stack trace:
+[05-Jul-2018 23:50:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[05-Jul-2018 23:50:39 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/labs/lab4/index.php:12
+[05-Jul-2018 23:57:31 UTC] PHP Fatal error:  Cannot redeclare displayResults() (previously declared in /home/ubuntu/workspace/cst336/labs/lab4/functions.php:3) in /home/ubuntu/workspace/cst336/labs/lab4/functions.php on line 3
+[05-Jul-2018 23:57:31 UTC] PHP Stack trace:
+[05-Jul-2018 23:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[06-Jul-2018 00:09:26 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 38
+[06-Jul-2018 00:09:26 UTC] PHP Stack trace:
+[06-Jul-2018 00:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[06-Jul-2018 00:09:29 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 38
+[06-Jul-2018 00:09:29 UTC] PHP Stack trace:
+[06-Jul-2018 00:09:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0

@@ -28,5 +28,17 @@
          echo "</table>";
       }
    }
+   
+   function displayCart(){
+      if(isset($_SESSION['cart'])){
+         echo "<table class='table'>";
+         foreach ($_SESSION['cart'] as $item) {
+            echo "<tr>";
+            echo "<td><h4>$item</h4></td>";
+            echo "</tr>";
+         }
+         echo "</table>";
+      }
+   }
 
 ?>

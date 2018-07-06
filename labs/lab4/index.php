@@ -1,14 +1,16 @@
 <?php
     session_start();
-
     include 'functions.php';
     
-    //Check to see if an item has been added to the cart
-    if(isset($_POST['itemName'])){
-        $_SESSION['cart'] = $_POST['itemName'];
+    if(!isset($_SESSION['cart'])){
+        $_SESSION['cart'] = array();
     }
     
-    
+    // Check to see if an item has been added to the cart
+    if(isset($_POST['itemName'])){
+        array_push($_SESSION['cart'], $_POST['itemName']);
+    }
+
     //Checks to see if the form is submitted
     if(isset($_GET['query'])){
         //Get access to our API function
@@ -17,6 +19,7 @@
         
     }
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
