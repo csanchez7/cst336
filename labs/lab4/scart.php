@@ -1,7 +1,6 @@
 <?php
     session_start();
     include 'functions.php';
-
     //If 'removeId' has been sent, search the cart for that itemId and unset it
     if(isset($_POST['removeId'])){
         foreach($_SESSION['cart'] as $itemKey => $item){

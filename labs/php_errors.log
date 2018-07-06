@@ -1074,3 +1074,6 @@
 [06-Jul-2018 01:50:51 UTC] PHP Stack trace:
 [06-Jul-2018 01:50:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
 [06-Jul-2018 01:50:51 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:38
+[06-Jul-2018 03:01:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 7
+[06-Jul-2018 03:01:13 UTC] PHP Stack trace:
+[06-Jul-2018 03:01:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0

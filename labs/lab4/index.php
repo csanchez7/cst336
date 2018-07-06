@@ -1,6 +1,7 @@
 <?php
-    session_start();
     include 'functions.php';
+        
+    session_start();
     
     if(!isset($_SESSION['cart'])){
         $_SESSION['cart'] = array();
@@ -15,18 +16,33 @@
         $newItem['id'] = $_POST['itemId'];
         $newItem['price'] = $_POST['itemPrice'];
         $newItem['image'] = $_POST['itemImage'];
+    
+        // Check to see if other items with this id are in the array
+        // If so, this item isn't new. Only update quantity
+        // Must be passed by reference so that each item can be updated!
+        foreach ($_SESSION['cart'] as &$item) {
+            if ($newItem['id'] == $item['id']){
+                $item['quantity'] += 1;
+                $found = true;
+            }
+        }   
         
-        //Storing the item array in the cart array
-        array_push($_SESSION['cart'], $newItem);
+        //else add it to array
+        if($found != true) {
+            $newItem['quantity'] = 1;
+            array_push($_SESSION['cart'], $newItem);
+        }
+        
     }
-
+    
     //Checks to see if the form is submitted
     if(isset($_GET['query'])){
         //Get access to our API function
         include 'wmapi.php';
         $items = getProducts($_GET['query']);
-        
     }
+    
+    
 ?>
 
 <!DOCTYPE html>
