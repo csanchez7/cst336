@@ -8,7 +8,16 @@
     
     // Check to see if an item has been added to the cart
     if(isset($_POST['itemName'])){
-        array_push($_SESSION['cart'], $_POST['itemName']);
+        
+        //Creating an array to hold an item's properties
+        $newItem = array();
+        $newItem['name'] = $_POST['itemName'];
+        $newItem['id'] = $_POST['itemId'];
+        $newItem['price'] = $_POST['itemPrice'];
+        $newItem['image'] = $_POST['itemImage'];
+        
+        //Storing the item array in the cart array
+        array_push($_SESSION['cart'], $newItem);
     }
 
     //Checks to see if the form is submitted
