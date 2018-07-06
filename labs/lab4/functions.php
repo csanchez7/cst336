@@ -47,7 +47,13 @@
             echo "<td><img src='$itemImage'></td>";
             echo "<td><h4>$itemName</h4></td>";
             echo "<td><h4>$itemPrice</h4></td>";
-            echo "<td><h4>$itemQuant</h4></td>";
+            
+            //Update form for this item
+            echo "<form method='post'>";
+            echo "<input type='hidden' name='itemId' value='$itemId'>";
+            echo "<td><input type='text' name='update' class= 'form-control' placeHolder='$itemQuant'></td>";
+            echo "<td><button class='btn btn-danger'>Update</button></td>";
+            echo "</form>";
             
             //Hidden input element containing item name
             echo "<form method='post'>";

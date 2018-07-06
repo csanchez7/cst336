@@ -1,11 +1,21 @@
 <?php
     session_start();
     include 'functions.php';
+    
     //If 'removeId' has been sent, search the cart for that itemId and unset it
     if(isset($_POST['removeId'])){
         foreach($_SESSION['cart'] as $itemKey => $item){
             if ($item['id'] == $_POST['removeId']){
                 unset($_SESSION['cart'][$itemKey]);
+            }
+        }
+    }
+    
+    //If 'itemId' quantity has been set, seach for the item with that ID and update quantity
+    if (isset($_POST['itemId'])){
+        foreach ($_SESSION['cart'] as &$item){
+            if ($item['id']==$_POST['itemId']) {
+                $item['quantity'] = $_POST['update'];
             }
         }
     }
