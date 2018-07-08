@@ -470,3 +470,183 @@
 [08-Jul-2018 06:26:31 UTC] PHP Stack trace:
 [08-Jul-2018 06:26:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
 [08-Jul-2018 06:26:31 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:252
+[08-Jul-2018 06:43:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 112
+[08-Jul-2018 06:43:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:43:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:112
+[08-Jul-2018 06:43:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 115
+[08-Jul-2018 06:43:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:43:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:115
+[08-Jul-2018 06:43:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 118
+[08-Jul-2018 06:43:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:43:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:118
+[08-Jul-2018 06:43:56 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 121
+[08-Jul-2018 06:43:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:43:56 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:121
+[08-Jul-2018 06:44:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 112
+[08-Jul-2018 06:44:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:44:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:112
+[08-Jul-2018 06:44:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 115
+[08-Jul-2018 06:44:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:44:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:115
+[08-Jul-2018 06:44:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 118
+[08-Jul-2018 06:44:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:44:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:118
+[08-Jul-2018 06:44:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 121
+[08-Jul-2018 06:44:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:44:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:121
+[08-Jul-2018 06:45:08 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:45:08 UTC] PHP Stack trace:
+[08-Jul-2018 06:45:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:45:08 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:45:08 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:45:08 UTC] PHP Stack trace:
+[08-Jul-2018 06:45:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:45:08 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:45:08 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:45:08 UTC] PHP Stack trace:
+[08-Jul-2018 06:45:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:45:08 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:45:56 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:45:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:45:56 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:45:56 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:45:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:45:56 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:45:56 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:45:56 UTC] PHP Stack trace:
+[08-Jul-2018 06:45:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:45:56 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:49:54 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:49:54 UTC] PHP Stack trace:
+[08-Jul-2018 06:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:49:54 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:49:54 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:49:54 UTC] PHP Stack trace:
+[08-Jul-2018 06:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:49:54 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:49:54 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:49:54 UTC] PHP Stack trace:
+[08-Jul-2018 06:49:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:49:54 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:51:03 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:51:03 UTC] PHP Stack trace:
+[08-Jul-2018 06:51:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:51:03 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:51:03 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:51:03 UTC] PHP Stack trace:
+[08-Jul-2018 06:51:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:51:03 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:51:03 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:51:03 UTC] PHP Stack trace:
+[08-Jul-2018 06:51:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:51:03 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:51:50 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:51:50 UTC] PHP Stack trace:
+[08-Jul-2018 06:51:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:51:50 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:51:50 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:51:50 UTC] PHP Stack trace:
+[08-Jul-2018 06:51:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:51:50 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:51:50 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:51:50 UTC] PHP Stack trace:
+[08-Jul-2018 06:51:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:51:50 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:52:25 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:52:25 UTC] PHP Stack trace:
+[08-Jul-2018 06:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:52:25 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:52:25 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:52:25 UTC] PHP Stack trace:
+[08-Jul-2018 06:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:52:25 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:52:25 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:52:25 UTC] PHP Stack trace:
+[08-Jul-2018 06:52:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:52:25 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:53:07 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:53:07 UTC] PHP Stack trace:
+[08-Jul-2018 06:53:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:53:07 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:53:07 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:53:07 UTC] PHP Stack trace:
+[08-Jul-2018 06:53:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:53:07 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:53:07 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:53:07 UTC] PHP Stack trace:
+[08-Jul-2018 06:53:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:53:07 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:55:08 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:55:08 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:08 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:55:08 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:55:08 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:08 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:55:08 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:55:08 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:08 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:55:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 112
+[08-Jul-2018 06:55:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:112
+[08-Jul-2018 06:55:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 115
+[08-Jul-2018 06:55:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:115
+[08-Jul-2018 06:55:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 118
+[08-Jul-2018 06:55:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:118
+[08-Jul-2018 06:55:20 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 121
+[08-Jul-2018 06:55:20 UTC] PHP Stack trace:
+[08-Jul-2018 06:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:55:20 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:121
+[08-Jul-2018 06:57:31 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:57:31 UTC] PHP Stack trace:
+[08-Jul-2018 06:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:57:31 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:57:31 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:57:31 UTC] PHP Stack trace:
+[08-Jul-2018 06:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:57:31 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:57:31 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:57:31 UTC] PHP Stack trace:
+[08-Jul-2018 06:57:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:57:31 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:57:43 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:57:43 UTC] PHP Stack trace:
+[08-Jul-2018 06:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:57:43 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:57:43 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:57:43 UTC] PHP Stack trace:
+[08-Jul-2018 06:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:57:43 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:57:43 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:57:43 UTC] PHP Stack trace:
+[08-Jul-2018 06:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:57:43 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
+[08-Jul-2018 06:58:48 UTC] PHP Warning:  array_intersect(): Argument #2 is not an array in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[08-Jul-2018 06:58:48 UTC] PHP Stack trace:
+[08-Jul-2018 06:58:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:58:48 UTC] PHP   2. array_intersect() /home/ubuntu/workspace/cst336/hw/hw3/index.php:26
+[08-Jul-2018 06:58:48 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[08-Jul-2018 06:58:48 UTC] PHP Stack trace:
+[08-Jul-2018 06:58:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:58:48 UTC] PHP   2. array_unique() /home/ubuntu/workspace/cst336/hw/hw3/index.php:27
+[08-Jul-2018 06:58:48 UTC] PHP Warning:  array_rand() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 28
+[08-Jul-2018 06:58:48 UTC] PHP Stack trace:
+[08-Jul-2018 06:58:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[08-Jul-2018 06:58:48 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/hw/hw3/index.php:28
