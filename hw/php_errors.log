@@ -125,3 +125,31 @@
 [30-Jun-2018 01:08:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/hw/hw2/inc/functions.php on line 90
 [30-Jun-2018 01:08:38 UTC] PHP Stack trace:
 [30-Jun-2018 01:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw2/index.php:0
+[07-Jul-2018 00:46:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 82
+[07-Jul-2018 20:18:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 109
+[07-Jul-2018 20:19:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 109
+[07-Jul-2018 20:21:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 110
+[07-Jul-2018 20:27:02 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 16
+[07-Jul-2018 23:27:09 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/cst336/hw/hw3/inc/functions.php on line 31
+[07-Jul-2018 23:27:09 UTC] PHP Stack trace:
+[07-Jul-2018 23:27:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[07-Jul-2018 23:27:24 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/cst336/hw/hw3/inc/functions.php on line 31
+[07-Jul-2018 23:27:24 UTC] PHP Stack trace:
+[07-Jul-2018 23:27:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[07-Jul-2018 23:27:27 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/cst336/hw/hw3/inc/functions.php on line 31
+[07-Jul-2018 23:27:27 UTC] PHP Stack trace:
+[07-Jul-2018 23:27:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[07-Jul-2018 23:27:51 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/cst336/hw/hw3/inc/functions.php on line 31
+[07-Jul-2018 23:27:51 UTC] PHP Stack trace:
+[07-Jul-2018 23:27:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[07-Jul-2018 23:31:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[07-Jul-2018 23:31:52 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 26
+[07-Jul-2018 23:32:07 UTC] PHP Warning:  in_array() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 24
+[07-Jul-2018 23:32:07 UTC] PHP Stack trace:
+[07-Jul-2018 23:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[07-Jul-2018 23:32:07 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:24
+[07-Jul-2018 23:35:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 27
+[07-Jul-2018 23:40:52 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/cst336/hw/hw3/index.php on line 20
+[07-Jul-2018 23:40:52 UTC] PHP Stack trace:
+[07-Jul-2018 23:40:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/hw/hw3/index.php:0
+[07-Jul-2018 23:40:52 UTC] PHP   2. in_array() /home/ubuntu/workspace/cst336/hw/hw3/index.php:20

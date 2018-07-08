@@ -1,0 +1,115 @@
+
+body{
+    background-image: url(../img/retroTV.jpg);
+    background-repeat:repeat;
+	background-attachment:fixed;
+	overflow:scroll;
+    background-color:#00387a;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:1.5em;
+    width:100%;
+    text-align:center;
+    color:#f2f2f2;
+    font-family:Georgia;
+}
+h2{
+    padding-top:20px;
+    padding-bottom:20px;
+    width:70%;
+    font-family:Georgia;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:1.6em;
+}
+#title{
+    color:#80ced6;
+    text-shadow: 2px 2px #0630dd;
+    background-color:rgba(54, 72, 107,.9);
+}
+
+div{
+    padding-top:30px;
+    padding-bottom:30px;
+    width:50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+    color:#383838;
+    display: block;
+}
+#nameDiv{
+    background:rgba(3, 79, 132,0.85);
+    color:white;
+}
+#ageDiv{
+    background:rgba(183, 215, 232,0.85)
+}
+#genreDiv{
+    padding-top:25px;
+    background:rgba(207, 224, 232,0.85);
+    text-align:left;
+} 
+#genreTitle{
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#audienceDiv{
+    background:rgba(135, 189, 216,0.85);
+}
+input[type="text"]{
+    width:30%;
+    padding: 12px 20px;
+    margin: 8 0;
+    border: 2px solid gold;
+    font-size:20px;
+}
+input[type="checkbox"]{
+    margin-left:30%;
+    margin-bottom:9px;
+}
+select{
+    width: 40%;
+    padding: 16px 20px;
+    border-radius: 10px;
+    font-size:20px;
+}
+input[type="radio"]{
+    font-size:25px;
+}
+#submit{
+    font-size:1em;
+    color:#ffef96;
+    font-weight: bold;
+    border-style: inset;
+    border-width: 5px;
+    border-color:#ffef96;
+    background-color: #008CBA;
+    width:250px;
+}
+#submit:hover{
+    font-size:1.2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+footer{
+    font-size:12px;
+    color:white;
+    background:rgba(94,94,94,0.9);
+    width:60%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    vertical-align:middle;
+    margin-left: auto;
+    margin-right: auto;
+}
