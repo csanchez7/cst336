@@ -15,20 +15,26 @@ body{
     color:#f2f2f2;
     font-family:Georgia;
 }
-h2{
-    padding-top:20px;
+#titles{
+    padding-top:1px;
     padding-bottom:20px;
     width:70%;
     font-family:Georgia;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
-    font-size:1.6em;
+    font-size:20px;
+    background-color:rgba(247, 225, 180,.9);
 }
+
 #title{
     color:#80ced6;
     text-shadow: 2px 2px #0630dd;
-    background-color:rgba(54, 72, 107,.9);
+    
+}
+#subtitle{
+    color:white;
+    text-shadow: 2px 2px #0630dd;
 }
 
 div{
@@ -47,7 +53,7 @@ div{
     color:white;
 }
 #ageDiv{
-    background:rgba(183, 215, 232,0.85)
+    background:rgba(131, 198, 234,0.85)
 }
 #genreDiv{
     padding-top:25px;
@@ -99,6 +105,7 @@ input[type="radio"]{
 #submit:hover{
     font-size:1.2em;
     cursor: pointer;
+    width:300px;
     transition: 0.5s;
 }
 
@@ -112,4 +119,13 @@ footer{
     vertical-align:middle;
     margin-left: auto;
     margin-right: auto;
+}
+#cartoonName{
+    background:rgba(94,94,94,0.9);
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:20px;
+    padding-bottom:20px;
+    color:white;
 }
