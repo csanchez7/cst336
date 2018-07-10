@@ -1,0 +1,24 @@
+body {
+    display: block;
+    margin: 4px;
+    background-color:#fffde5;
+    color:black;
+    font-family:"Helvetica";
+}
+div {
+    border: double;
+    border-radius: 8px;
+    border-color: #ffd714;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    background:rgba(16, 140, 188,0.6);
+}
+form{
+    font-size:20px;
+    line-height:150%;
+    width:40%;
+    margin:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}

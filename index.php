@@ -9,20 +9,21 @@ echo "Carlos Sanchez CST336 Internet Programming";
 ?>
     <h2>CST 336: Assignments</h2>
     <h3>Labs</h3>
-    <a href= "labs/lab1/" > Lab 1 </a>
-    <br  /> <br  />
-    <a href= "labs/lab2/" > Lab 2 </a>
-    <br  /> <br  />
-    <a href= "labs/lab3/" > Lab 3 </a>
-    <br  /> <br  />
-    <a href= "labs/lab4/" > Lab 4 </a>
-    <br  /> <br  />
+    <a href="labs/lab1/">Lab 1</a>
+    <br />
+    <a href="labs/lab2/">Lab 2</a>
+    <br />
+    <a href="labs/lab3/">Lab 3</a>
+    <br />
+    <a href="labs/lab4/">Lab 4</a>
+    <br />
+    <a href="labs/lab5/">Lab 5</a>
     <h3>Homework</h3>
-    <a href= "hw/hw1/" > HW 1</a>
-    <br  /> <br  />
-    <a href= "hw/hw2/" > HW 2</a>
-    <br  /> <br  />
-    <a href= "hw/hw3/" > HW 3</a> 
+    <a href="hw/hw1/">HW 1</a>
+    <br />
+    <a href="hw/hw2/">HW 2</a>
+    <br />
+    <a href="hw/hw3/">HW 3</a> 
 
 
 </body>

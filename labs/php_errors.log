@@ -1080,3 +1080,177 @@
 [06-Jul-2018 04:05:26 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/labs/lab4/scart.php on line 49
 [06-Jul-2018 04:05:26 UTC] PHP Stack trace:
 [06-Jul-2018 04:05:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/scart.php:0
+[10-Jul-2018 03:45:08 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 43
+[10-Jul-2018 03:45:08 UTC] PHP Stack trace:
+[10-Jul-2018 03:45:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 03:45:11 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 43
+[10-Jul-2018 03:45:11 UTC] PHP Stack trace:
+[10-Jul-2018 03:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 03:48:39 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 43
+[10-Jul-2018 03:48:39 UTC] PHP Stack trace:
+[10-Jul-2018 03:48:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 03:49:38 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 42
+[10-Jul-2018 03:49:38 UTC] PHP Stack trace:
+[10-Jul-2018 03:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 03:51:47 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 42
+[10-Jul-2018 03:51:47 UTC] PHP Stack trace:
+[10-Jul-2018 03:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 03:53:05 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 42
+[10-Jul-2018 03:53:05 UTC] PHP Stack trace:
+[10-Jul-2018 03:53:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 03:56:36 UTC] PHP Fatal error:  Call to undefined function functionName() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 42
+[10-Jul-2018 03:56:36 UTC] PHP Stack trace:
+[10-Jul-2018 03:56:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 21:45:13 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[10-Jul-2018 21:45:13 UTC] PHP Stack trace:
+[10-Jul-2018 21:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 21:45:13 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[10-Jul-2018 21:45:13 UTC] PHP Stack trace:
+[10-Jul-2018 21:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 21:45:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 5
+[10-Jul-2018 21:45:13 UTC] PHP Stack trace:
+[10-Jul-2018 21:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 21:47:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 44
+[10-Jul-2018 21:47:48 UTC] PHP Stack trace:
+[10-Jul-2018 21:47:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 21:47:48 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/cst336/labs/lab5/index.php:111
+[10-Jul-2018 21:57:10 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[10-Jul-2018 21:57:10 UTC] PHP Stack trace:
+[10-Jul-2018 21:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 21:57:10 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[10-Jul-2018 21:57:10 UTC] PHP Stack trace:
+[10-Jul-2018 21:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 21:57:10 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 5
+[10-Jul-2018 21:57:10 UTC] PHP Stack trace:
+[10-Jul-2018 21:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 22:20:03 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 3
+[10-Jul-2018 22:20:03 UTC] PHP Stack trace:
+[10-Jul-2018 22:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:20:03 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 3
+[10-Jul-2018 22:20:03 UTC] PHP Stack trace:
+[10-Jul-2018 22:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:20:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 5
+[10-Jul-2018 22:20:03 UTC] PHP Stack trace:
+[10-Jul-2018 22:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:27:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 49
+[10-Jul-2018 22:27:17 UTC] PHP Stack trace:
+[10-Jul-2018 22:27:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:27:17 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/cst336/labs/lab5/index.php:112
+[10-Jul-2018 22:49:56 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[10-Jul-2018 22:49:56 UTC] PHP Stack trace:
+[10-Jul-2018 22:49:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 22:49:56 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[10-Jul-2018 22:49:56 UTC] PHP Stack trace:
+[10-Jul-2018 22:49:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 22:49:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 5
+[10-Jul-2018 22:49:56 UTC] PHP Stack trace:
+[10-Jul-2018 22:49:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[10-Jul-2018 22:50:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:51:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:51:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:51:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:52:46 UTC] PHP Warning:  include(/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 3
+[10-Jul-2018 22:52:46 UTC] PHP Stack trace:
+[10-Jul-2018 22:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:52:46 UTC] PHP Warning:  include(): Failed opening '/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 3
+[10-Jul-2018 22:52:46 UTC] PHP Stack trace:
+[10-Jul-2018 22:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:52:46 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 5
+[10-Jul-2018 22:52:46 UTC] PHP Stack trace:
+[10-Jul-2018 22:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 22:53:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:53:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:53:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:54:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:62
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(62): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(109): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 62
+[10-Jul-2018 22:56:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 22:58:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:10:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:11:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:15:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:15:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:15:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(112): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:16:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:64
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(64): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(112): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 64
+[10-Jul-2018 23:17:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 67
+[10-Jul-2018 23:17:10 UTC] PHP Stack trace:
+[10-Jul-2018 23:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[10-Jul-2018 23:17:10 UTC] PHP   2. displaySearchResults() /home/ubuntu/workspace/cst336/labs/lab5/index.php:111
