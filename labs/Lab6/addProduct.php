@@ -21,6 +21,31 @@
         }
     }
     
+    if(isset($_GET['submitProduct'])){
+        
+        $productName = $_GET['productName'];
+        $productDescription = $_GET['description'];
+        $productImage = $_GET['productImage'];
+        $productPrice = $_GET['price'];
+        $catId = $_GET['catId'];
+        
+        $sql = "INSERT INTO om_product
+                (productName, productDescription, productImage, price, catId)
+                VALUES ( :productName, :productDescription, :productImage, :price, :catId)";
+                
+        $np = array();
+        $np[':productName'] = $productName;
+        $np[':productDescription'] = $productDescription;
+        $np[':productImage'] = $productImage;
+        $np[':price'] = $productPrice;
+        $np[':catId'] = $catId;
+        
+        $stmt = $conn->prepare($sql);
+        $stmt->execute($np);
+        
+        
+    }
+    
 
 ?>
 
