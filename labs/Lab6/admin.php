@@ -34,7 +34,10 @@
     <body>
         <h1>Admin Main Page</h1>
         <h3>Welcome <?=$_SESSION['adminName']?>!</h3><br />
-        
+        <form action="addProduct.php">
+            <input type="submit" class='btn btn-secondary' id='beginning' name="addProduct" value="Add Product" />
+        </form>
+        <br/>
         <?php
             $records = displayAllProducts();
             

@@ -1263,3 +1263,78 @@ Stack trace:
 [16-Jul-2018 07:08:55 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 3
 [16-Jul-2018 07:08:55 UTC] PHP Stack trace:
 [16-Jul-2018 07:08:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/index.php:0
+[16-Jul-2018 21:31:15 UTC] PHP Fatal error:  Call to undefined function getCatagories() in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 21
+[16-Jul-2018 21:31:15 UTC] PHP Stack trace:
+[16-Jul-2018 21:31:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:0
+[16-Jul-2018 21:36:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(37): getCatagories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:37:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(37): getCatagories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:39:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCatagories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:39:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCatagories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:39:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCatagories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:42:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:42:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:43:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:48:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:48:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:51:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(38): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
+[16-Jul-2018 21:54:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_catagory' doesn't exist' in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php(39): getCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/addProduct.php on line 16
