@@ -45,6 +45,11 @@
             <input type="submit" class='btn btn-secondary' id='beginning' name="addProduct" value="Add Product" />
         </form>
         <br/>
+        
+        <form action="logout.php">
+            <input type="submit" class='btn btn-secondary' id="beginning" value="Logout"/>
+        </form>
+        <br/>
         <?php
             $records = displayAllProducts();
             
