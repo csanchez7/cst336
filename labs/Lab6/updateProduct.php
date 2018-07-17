@@ -39,6 +39,29 @@
             echo " value='".$record["catId"] . "'>". $record['catName'] ." </option>";
         }
     }
+    
+    if(isset($_GET['updateProduct'])){
+        
+        $sql = "UPDATE om_product
+                SET productName = :productName,
+                    productDescription = :productDescription,
+                    productImage = :productImage,
+                    price = :price,
+                    catId = :catId
+                WHERE productId = :productId";
+                
+        $np = array();
+        $np[':productName'] = $_GET['productName'];
+        $np[':productDescription'] = $_GET['productDescription'];
+        $np[':productImage'] = $_GET['productImage'];
+        $np[':price'] = $_GET['price'];
+        $np[':catId'] = $_GET['catId'];
+        $np[':productId'] = $_GET['productId'];
+        
+        $stmt = $conn->prepare($sql);
+        $stmt->execute($np);
+        echo "<strong style='color:green'>Product has been updated!</strong><br><br>";
+    }
 ?>
 
 <!DOCTYPE html>
@@ -50,7 +73,7 @@
         <form>
             <input type="hidden" name="productId" value="<?=$product['productId']?>"/>
             <strong>Product Name</strong><input type="text" class="form-control" name="productName" value="<?=$product['productName']?>"><br>
-            <strong>Description</strong><textarea name="description" class="form-control" cols=50 rows=4> <?=$product['productDescription']?></textarea><br>
+            <strong>Description</strong><textarea name="productDescription" class="form-control" cols=50 rows=4> <?=$product['productDescription']?></textarea><br>
             <strong>Price</strong><input type="text" class="form-control" name="price" value="<?=$product['price']?>"><br>
             <strong>Category</strong> <select name="catId" class="form-control">
                 <option value="">Select One</option>
