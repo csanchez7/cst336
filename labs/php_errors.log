@@ -1589,3 +1589,13 @@ Stack trace:
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/labs/Lab6/updateProduct.php on line 62
 [17-Jul-2018 02:10:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/Lab6/updateProduct.php on line 65
+[17-Jul-2018 02:24:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 3' in /home/ubuntu/workspace/cst336/labs/Lab6/deleteProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/deleteProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/deleteProduct.php on line 11
+[17-Jul-2018 02:25:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/' at line 3' in /home/ubuntu/workspace/cst336/labs/Lab6/deleteProduct.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/Lab6/deleteProduct.php(11): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/Lab6/deleteProduct.php on line 11

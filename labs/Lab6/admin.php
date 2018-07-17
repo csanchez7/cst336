@@ -30,6 +30,13 @@
     <head>
         <title>Admin Main Page</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+        <script>
+            function confirmDelete(){
+                return confirm("Are you sure you want to delete the product?");
+            }
+            
+        </script>
     </head>
     <body>
         <h1>Admin Main Page</h1>
@@ -62,7 +69,7 @@
                 echo "<td><a class='btn btn-primary' href='updateProduct.php?productId=". $record['productId']."'>Update</a></td>";
                 
                 echo "<form action='deleteProduct.php' onsubmit='return confirmDelete()'>";
-                echo "<input type='hidden' name='productId' value= " . $record['product']." />";
+                echo "<input type='hidden' name='productId' value= " . $record['productId']." />";
                 echo "<td><input type='submit' class='btn btn-danger' value='Remove'></td>";
             }
             echo "</tbody>";
