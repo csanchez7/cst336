@@ -6,7 +6,7 @@
     $conn = getDatabaseConnection("ottermart");
     
     if(!isset($_SESSION['adminName'])) {
-        header("Location:login.php");
+        header("Location:index.php");
     }
     
     function displayAllProducts(){

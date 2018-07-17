@@ -25,7 +25,7 @@
 
     if(empty($record)){
         $_SESSION['incorrect']=true;
-        header("Location:login.php");
+        header("Location:index.php");
     }else{
         //echo $record['firstNme']." ". $record['lastName'];
     $_SESSION['incorrect'] = false;
