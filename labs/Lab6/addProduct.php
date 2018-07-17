@@ -24,7 +24,7 @@
     if(isset($_GET['submitProduct'])){
         
         $productName = $_GET['productName'];
-        $productDescription = $_GET['productDescription'];
+        $productDescription = $_GET['description'];
         $productImage = $_GET['productImage'];
         $productPrice = $_GET['price'];
         $catId = $_GET['catId'];
