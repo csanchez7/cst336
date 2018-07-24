@@ -20,6 +20,8 @@ echo "Carlos Sanchez CST336 Internet Programming";
     <a href="labs/lab5/">Lab 5</a>
     <br />
     <a href="labs/lab6/">Lab 6</a>
+    <br />
+    <a href="labs/lab7/">Lab 7</a>
     <h3>Homework</h3>
     <a href="hw/hw1/">HW 1</a>
     <br />
