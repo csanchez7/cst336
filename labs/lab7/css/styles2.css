@@ -1,4 +1,4 @@
-#won, #lost {
+#won, #lost, #monkey, #snake, #beetle {
     display: none;
 }
 
@@ -36,16 +36,4 @@
 #hintButton {
     font-size: 12px;
     background-color: #008CBA;
-}
-
-#monkey{
-    display:none;
-}
-
-#snake{
-    display:none;
-}
-
-#beetle{
-    display:none;
 }

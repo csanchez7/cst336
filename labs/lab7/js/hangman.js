@@ -17,9 +17,8 @@ window.onload = startGame();
 
 $(".letter").click(function(){
   checkLetter($(this).attr("id"));
+  disableButton($(this));
 });
-
-// $("#alreadyGuessed").append("<span class='guess'> " + selectedWord +"</span>");
 
 $(".replayBtn").on("click", function() {
     location.reload();
