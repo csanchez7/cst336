@@ -10,7 +10,13 @@ var words = [{word:"snake", hint: "It's a reptile"},
 var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+var alreadyGuessed;
 
+if(sessionStorage.getItem('alreadyGuessed')){
+    alreadyGuessed = JSON.parse(sessionStorage.getItem('alreadyGuessed'));
+}else{
+    alreadyGuessed = [];
+}
 
 //LISTENER
 window.onload = startGame();
@@ -24,9 +30,10 @@ $(".replayBtn").on("click", function() {
     location.reload();
 });
 
-$(".btn-sm").on("click", function(){
+$(".hintButton").on("click", function(){
     $(".hint").show();
-    $(".btn-sm").hide();
+    $(this).hide();
+    disableButton($(this));
     remainingGuesses -= 1;
     updateMan();
 });
@@ -38,6 +45,7 @@ function startGame(){
     initBoard();
     createLetters();
     updateBoard();
+    showGuessedWords();
 }
 
 function pickWord(){
@@ -114,6 +122,8 @@ function endGame(win) {
     
     if (win){
         $('#won').show();
+        alreadyGuessed.push(selectedWord);
+        sessionStorage.setItem('alreadyGuessed', JSON.stringify(alreadyGuessed));
     }else{
         $('#lost').show();
     }
@@ -122,4 +132,13 @@ function endGame(win) {
 function disableButton(btn){
     btn.prop("disabled",true);
     btn.attr("class", "btn btn-danger");
+}
+
+function showGuessedWords(){
+    if(alreadyGuessed.length > 0){
+        $("#alreadyGuessed").append("<h4>Guessed Words</h4>");
+        for(word of alreadyGuessed) {
+            $("#alreadyGuessed").append("<p>" + word + "</p>");
+        }
+    }
 }
