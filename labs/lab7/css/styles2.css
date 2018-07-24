@@ -1,0 +1,51 @@
+#won, #lost {
+    display: none;
+}
+
+#word, #letters{
+    padding: 20px 0px;
+}
+
+#hangImg{
+    width: 100px;
+}
+
+#man{
+    margin: 20px auto;
+    width: 500px;
+    height: 375px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#word{
+    font-size: 1.8em;
+}
+
+.hint{
+    font-size: 0.6em !important;
+    display: none;
+}
+
+.btn {
+    padding: 7px 7px !important;
+    margin: 0px 2px;
+}
+
+#hintButton {
+    font-size: 12px;
+    background-color: #008CBA;
+}
+
+#monkey{
+    display:none;
+}
+
+#snake{
+    display:none;
+}
+
+#beetle{
+    display:none;
+}
