@@ -1,0 +1,10 @@
+#gameScreen{
+	position: relative;
+	background-color: silver;
+	overflow: hidden;
+}
+
+.gameObject{
+	position: absolute;
+	z-index: 1;
+}
