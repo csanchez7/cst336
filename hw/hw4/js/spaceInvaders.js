@@ -2,6 +2,8 @@
 var gameScreen;
 var output;
 
+var bullets;
+
 var ship;
 
 var gameTimer;
@@ -30,9 +32,6 @@ function init(){
     bg1.style.top = '0px';
     gameScreen.appendChild(bg1);    
     
-    output = document.getElementById('output');
-
-    
     bg2 = document.createElement('IMG');
     bg2.className = 'gameObject';
     bg2.src = 'bg.jpg';
@@ -41,6 +40,16 @@ function init(){
     bg2.style.left = '0px';
     bg2.style.top = '-1422px';
     gameScreen.appendChild(bg2);
+    
+    bullets = document.createElement('DIV');
+    bullets.className = 'gameObject';
+    bullets.style.width = gameScreen.style.width;
+    bullets.style.height = gameScreen.style.height;
+    bullets.style.left = '0px';
+    bullets.style.top = '0px';
+    gameScreen.appendChild(bullets);
+    
+    output = document.getElementById('output');
 
 	ship = document.createElement('IMG');
 	ship.src = 'ship.gif';
@@ -50,10 +59,7 @@ function init(){
 	ship.style.top = '500px';
 	ship.style.left = '366px';
     
-    
 	gameScreen.appendChild(ship);
-
-    
 
 	gameTimer = setInterval(gameloop, 50);
 }
@@ -84,9 +90,36 @@ function gameloop(){
 		if(newX <  maxX) ship.style.left = newX + 20 + 'px';
 		else ship.style.left = maxX + 'px';
 	}
+    
+    var b = bullets.children;
+    for(var i=0; i<b.length; i++){
+        var newY = parseInt(b[i].style.top) - b[i].speed;
+        if(newY < 0) bullets.removeChild(b[i]);
+        else b[i].style.top = newY + 'px';
+    }
+    output.innerHTML = b.length;
+}
+
+function fire(){
+    var bulletWidth = 4;
+    var bulletHeight = 10;
+    var bullet = document.createElement('DIV');
+    bullet.className = 'gameObject';
+    bullet.style.backgroundColor = 'yellow';
+    bullet.style.width = bulletWidth;
+    bullet.style.height = bulletHeight;
+    bullet.speed = 20
+    bullet.style.top = parseInt(ship.style.top) - bulletHeight + 'px';
+    var shipX = parseInt(ship.style.left)  + parseInt(ship.style.width)/2;
+    bullet.style.left = (shipX - bulletWidth/2) + 'px';
+    bullets.appendChild(bullet);
 }
 
 //LISTENERS
+document.addEventListener('keypress', function(event){
+   if (event.charCode==32) fire(); 
+});
+
 document.addEventListener('keydown', function(event){
 	if(event.keyCode==37) leftArrowDown = true;
 	if(event.keyCode==39) rightArrowDown = true;
