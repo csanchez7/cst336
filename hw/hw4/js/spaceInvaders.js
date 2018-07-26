@@ -5,6 +5,7 @@ var output;
 var bullets;
 
 var ship;
+var enemies = new Array();
 
 var gameTimer;
 
@@ -60,6 +61,17 @@ function init(){
 	ship.style.left = '366px';
     
 	gameScreen.appendChild(ship);
+	
+	for(var i=0; i<10; i++){
+	    var enemy = new Image();
+	    enemy.className = 'gameObject';
+	    enemy.style.width = '64px';
+	    enemy.style.height = '64px';
+	    enemy.src = 'enemyShip.gif';
+	    gameScreen.appendChild(enemy);
+	    placeEnemyShip(enemy);
+	    enemies[i] = enemy;
+	}
 
 	gameTimer = setInterval(gameloop, 50);
 }
@@ -97,7 +109,18 @@ function gameloop(){
         if(newY < 0) bullets.removeChild(b[i]);
         else b[i].style.top = newY + 'px';
     }
-    output.innerHTML = b.length;
+    //output.innerHTML = b.length;
+    
+    for (var i=0; i<enemies.length; i++){
+        var newY = parseInt(enemies[i].style.top);
+        if (newY > GS_HEIGHT) placeEnemyShip(enemies[i]);
+        else enemies[i].style.top = newY + enemies[i].speed + 'px';
+    
+        if (hittest(enemies[i], ship)){
+            ship.style.top = '-10000px';
+            placeEnemyShip(enemies[i]);
+        }
+    }
 }
 
 function fire(){
@@ -113,6 +136,45 @@ function fire(){
     var shipX = parseInt(ship.style.left)  + parseInt(ship.style.width)/2;
     bullet.style.left = (shipX - bulletWidth/2) + 'px';
     bullets.appendChild(bullet);
+}
+
+function placeEnemyShip(e){
+    e.speed = Math.floor(Math.random()*10) + 6;
+    
+    var maxX = GS_WIDTH - parseInt(e.style.width);
+    var newX = Math.floor(Math.random()*maxX);
+    e.style.left = newX + 'px';
+    
+    var newY = Math.floor(Math.random()*600) - 1000;
+    e.style.top = newY + 'px';
+}
+
+// hittest based on distance between the midpoingts of two object
+function hittest(a, b){
+    var aW = parseInt(a.style.width);
+    var aH = parseInt(a.style.height);
+    // get center point of object a
+    var aX = parseInt(a.style.left) + aW/2;
+    var aY = parseInt(a.style.top) + aH/2;
+    // get radius of object a (average of height and width / 2)
+    var aR = (aW + aH) / 4;
+    
+    var bW = parseInt(b.style.width);
+    var bH = parseInt(b.style.height);
+    // get center point of object b
+    var bX = parseInt(b.style.left) + bW/2;
+    var bY = parseInt(b.style.top) + bW/2;
+    // get radius of object b (average of height and width / 2)
+    var bR = (bW + bH) / 4;
+    
+    var minDistance = aR + bR;
+    
+    var cXs = (aX - bX) * (aX - bX); // change in X squared
+    var cYs = (aY - bY) * (aY - bY); // change in Y squared
+    var distance = Math.sqrt(cXs + cYs);
+    
+    if(distance < minDistance) return true;
+    else return false;
 }
 
 //LISTENERS
