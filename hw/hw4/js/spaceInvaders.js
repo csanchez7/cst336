@@ -76,6 +76,18 @@ function init(){
 	gameTimer = setInterval(gameloop, 50);
 }
 
+function explode(obj){
+    var explosion = document.createElement('IMG');
+    explosion.src = 'explosion.gif?x=' + Date.now();
+    
+    explosion.className = 'gameObject';
+    explosion.style.width = obj.style.width;
+    explosion.style.height = obj.style.height;
+    explosion.style.left = obj.style.left;
+    explosion.style.top = obj.style.top;
+    gameScreen.appendChild(explosion);
+}
+
 function gameloop(){
 
     var bgY = parseInt(bg1.style.top) + BG_SPEED;
@@ -107,7 +119,17 @@ function gameloop(){
     for(var i=0; i<b.length; i++){
         var newY = parseInt(b[i].style.top) - b[i].speed;
         if(newY < 0) bullets.removeChild(b[i]);
-        else b[i].style.top = newY + 'px';
+        else{
+            b[i].style.top = newY + 'px';
+            for (var j=0; j<enemies.length; j++){
+                if ( hittest(b[i], enemies[j]) ){
+                    bullets.removeChild(b[i]);
+                    explode(enemies[j]);
+                    placeEnemyShip(enemies[j]);
+                    break;
+                }
+            }
+        } 
     }
     //output.innerHTML = b.length;
     
@@ -117,6 +139,8 @@ function gameloop(){
         else enemies[i].style.top = newY + enemies[i].speed + 'px';
     
         if (hittest(enemies[i], ship)){
+            explode(ship);
+            explode(enemies[i]);
             ship.style.top = '-10000px';
             placeEnemyShip(enemies[i]);
         }
