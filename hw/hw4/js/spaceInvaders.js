@@ -13,7 +13,7 @@ var leftArrowDown = false;
 var rightArrowDown = false;
 
 var bg1, bg2;
-const BG_SPEED = 4;
+const BG_SPEED = 6;
 
 const GS_WIDTH = 800;
 const GS_HEIGHT = 600;
@@ -21,71 +21,82 @@ const GS_HEIGHT = 600;
 //FUNCTIONS
 function init(){
 	gameScreen = document.getElementById('gameScreen');
-	gameScreen.style.width = GS_WIDTH + 'px';
-	gameScreen.style.height = GS_HEIGHT + 'px';
+	$(gameScreen).css({
+	   width:GS_WIDTH + 'px',
+	   height:GS_HEIGHT + 'px'
+	});
 
     bg1 = document.createElement('IMG');
-    bg1.className = 'gameObject';
-    bg1.src = 'bg.jpg';
-    bg1.style.width = '800px';
-    bg1.style.height = '1422px';
-    bg1.style.left = '0px';
-    bg1.style.top = '0px';
-    gameScreen.appendChild(bg1);    
+    $(bg1).addClass('gameObject');
+    $(bg1).attr('src', 'bg.jpg');
+    $(bg1).css({
+        width:'800px',
+        height:'1422px',
+        top:'0px',
+        left:'0px'
+    });
+    $(gameScreen).append($(bg1));
     
     bg2 = document.createElement('IMG');
-    bg2.className = 'gameObject';
-    bg2.src = 'bg.jpg';
-    bg2.style.width = '800px';
-    bg2.style.height = '1422px';
-    bg2.style.left = '0px';
-    bg2.style.top = '-1422px';
-    gameScreen.appendChild(bg2);
+    $(bg2).addClass('gameObject');
+    $(bg2).attr('src', 'bg.jpg');
+    $(bg2).css({
+        width:'800px',
+        height:'1422px',
+        top:'-1422px',
+        left:'0px'
+    });
+    $(gameScreen).append($(bg2));
     
     bullets = document.createElement('DIV');
-    bullets.className = 'gameObject';
-    bullets.style.width = gameScreen.style.width;
-    bullets.style.height = gameScreen.style.height;
-    bullets.style.left = '0px';
-    bullets.style.top = '0px';
-    gameScreen.appendChild(bullets);
+    $(bullets).addClass('gameObject');
+    $(bullets).css({
+        width:$(gameScreen).attr('width'),
+        height:$(gameScreen).attr('height'),
+        top:'0px',
+        left:'0px'
+    });
+    $(gameScreen).append($(bullets));
     
     output = document.getElementById('output');
 
 	ship = document.createElement('IMG');
-	ship.src = 'ship.gif';
-	ship.className = 'gameObject';
-	ship.style.width = '68px';
-	ship.style.height = '68px';
-	ship.style.top = '500px';
-	ship.style.left = '366px';
-    
-	gameScreen.appendChild(ship);
-	
+	$(ship).attr('src', 'ship.gif');
+    $(ship).addClass('gameObject');
+    $(ship).css({
+        width:'68px',
+        height:'68px',
+        top:'500px',
+        left:'366px'
+    });
+    $(gameScreen).append($(ship));
+
 	for(var i=0; i<10; i++){
 	    var enemy = new Image();
-	    enemy.className = 'gameObject';
-	    enemy.style.width = '64px';
-	    enemy.style.height = '64px';
-	    enemy.src = 'enemyShip.gif';
-	    gameScreen.appendChild(enemy);
+	    $(enemy).addClass('gameObject').attr('src','enemyShip.gif');
+	    $(enemy).css({
+	       width:'64px',
+	       height:'64px'
+	    });
+	    $(gameScreen).append($(enemy));
 	    placeEnemyShip(enemy);
 	    enemies[i] = enemy;
 	}
-
 	gameTimer = setInterval(gameloop, 50);
 }
 
 function explode(obj){
     var explosion = document.createElement('IMG');
-    explosion.src = 'explosion.gif?x=' + Date.now();
-    
-    explosion.className = 'gameObject';
-    explosion.style.width = obj.style.width;
-    explosion.style.height = obj.style.height;
-    explosion.style.left = obj.style.left;
-    explosion.style.top = obj.style.top;
-    gameScreen.appendChild(explosion);
+
+    $(explosion).attr('src', 'explosion.gif?x=' + Date.now());
+    $(explosion).addClass('gameObject');
+    $(explosion).css({
+        width:$(obj).attr("width"),
+        height:$(obj).attr("height"),
+        top:$(obj).position().top,
+        left:$(obj).position().left
+    });
+    $(gameScreen).append($(explosion));
 }
 
 function gameloop(){
@@ -104,14 +115,14 @@ function gameloop(){
     
 	if(leftArrowDown){
 		var newX = parseInt(ship.style.left);
-		if(newX > 0) ship.style.left = newX - 20 + 'px';
+		if(newX > 0) ship.style.left = newX - 25 + 'px';
 		else ship.style.left = '0px';
 	}
 
 	if(rightArrowDown){
 		var newX = parseInt(ship.style.left);
 		var maxX = GS_WIDTH - parseInt(ship.style.width);
-		if(newX <  maxX) ship.style.left = newX + 20 + 'px';
+		if(newX <  maxX) ship.style.left = newX + 25 + 'px';
 		else ship.style.left = maxX + 'px';
 	}
     
@@ -149,14 +160,16 @@ function gameloop(){
 
 function fire(){
     var bulletWidth = 4;
-    var bulletHeight = 10;
+    var bulletHeight = 8;
     var bullet = document.createElement('DIV');
-    bullet.className = 'gameObject';
-    bullet.style.backgroundColor = 'yellow';
-    bullet.style.width = bulletWidth;
-    bullet.style.height = bulletHeight;
+    $(bullet).addClass('gameObject');
+    $(bullet).css({
+        backgroundColor:'yellow',
+        width:bulletWidth,
+        height:bulletHeight
+    });
     bullet.speed = 20
-    bullet.style.top = parseInt(ship.style.top) - bulletHeight + 'px';
+    bullet.style.top = parseInt(ship .style.top) - bulletHeight + 'px';
     var shipX = parseInt(ship.style.left)  + parseInt(ship.style.width)/2;
     bullet.style.left = (shipX - bulletWidth/2) + 'px';
     bullets.appendChild(bullet);
@@ -202,16 +215,18 @@ function hittest(a, b){
 }
 
 //LISTENERS
-document.addEventListener('keypress', function(event){
-   if (event.charCode==32) fire(); 
+window.onload = init();
+
+$(document).keypress(function(event) {
+  if (event.charCode==32) fire();
 });
 
-document.addEventListener('keydown', function(event){
-	if(event.keyCode==37) leftArrowDown = true;
-	if(event.keyCode==39) rightArrowDown = true;
+$(document).keydown(function(event){
+    if(event.keyCode==37) leftArrowDown = true;
+    if(event.keyCode==39) rightArrowDown = true; 
 });
 
-document.addEventListener('keyup', function(event){
-	if(event.keyCode==37) leftArrowDown = false;
+$(document).keyup(function(event){
+    if(event.keyCode==37) leftArrowDown = false;
 	if(event.keyCode==39) rightArrowDown = false;
 });
