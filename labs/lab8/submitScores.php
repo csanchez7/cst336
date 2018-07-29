@@ -5,13 +5,14 @@ include 'connect.php';
 $connect = getDBConnection();
 
 $score = $_POST['score'];
-echo $score;
+// echo $score;
 
 //Adding new score to database
 $sql = "INSERT INTO scores (username, score)
         VALUES (:username, :score)";
+        
 $data = array(
-        ":username" => $_GET['username'],
+        ":username" => $_SESSION['username'],
         ":score" => $score 
 );
 $stmt = $connect->prepare($sql);

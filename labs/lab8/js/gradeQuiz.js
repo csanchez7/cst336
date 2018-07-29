@@ -21,7 +21,7 @@ $(document).ready(function(){
         //Checks if answers are correct
         // Question 1
         if(answer1 === "1994"){
-            correctAnser($("#question1-feedback"));
+            correctAnswer($("#question1-feedback"));
         }
         else{
             incorrectAnswer($("#question1-feedback"));
@@ -29,7 +29,7 @@ $(document).ready(function(){
         $("#question1-feedback").append("The answer is <strong>1994</strong>");
         
         // Question 2
-        if(answer === "C") {
+        if(answer2 === "C") {
             correctAnswer($("#question2-feedback"));
         }else{
             incorrectAnswer($("#question2-feedback"));
@@ -46,7 +46,7 @@ $(document).ready(function(){
             type : "post",
             url  : "submitScores.php",            
             dataType : "json",
-            data : {"score" :score},            
+            data : {"score":score},            
             success : function(data){
                 console.log(data);
                 $("#times").html(data.times);
@@ -56,7 +56,7 @@ $(document).ready(function(){
                 $("input[type='submit]").css("display","");
             },
             complete: function(data,status) { //optional, used for debugging purposes
-               // alert(status);
+            //   alert(status);
             }
 
         });//AJAX

@@ -1,8 +1,8 @@
 <?php
 session_start();
 
+//displays Quiz if session is active
 function displayQuiz(){
-    //displays Quiz if session is active
     if(isset($_SESSION['username'])){
         include 'quiz.php';
     }else{
@@ -48,5 +48,6 @@ function displayQuiz(){
         
         <!--Javascript files-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/gradeQuiz.js"></script>
     </body>
 </html>
