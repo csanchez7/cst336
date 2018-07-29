@@ -73,7 +73,8 @@ function init(){
 
 	for(var i=0; i<10; i++){
 	    var enemy = new Image();
-	    $(enemy).addClass('gameObject').attr('src','enemyShip.gif');
+	    $(enemy).addClass('gameObject');
+	    $(enemy).attr('src','space-invader.png');
 	    $(enemy).css({
 	       width:'64px',
 	       height:'64px'
