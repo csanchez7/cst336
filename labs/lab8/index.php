@@ -23,7 +23,6 @@ function displayQuiz(){
         <!--Display user and logout button-->
         <div class="user-menu">
             <?php echo "Welcome ".$_SESSION['username']."! ";?> 
-            <input type="button" id="logoutBtn" value="Logout" />    
         </div>
         
         <div class="content-wrapper">
@@ -38,6 +37,11 @@ function displayQuiz(){
                         You've taken this quiz <strong id="times"></strong> time(s). <br /><br />
                         
                         Your average score was <strong id="average"></strong>.
+                    <br />
+                    <br />
+                        <div>
+                            <input type="button" id="logoutBtn" value="Logout" />
+                        </div>
                     </div>
             
             </div>
