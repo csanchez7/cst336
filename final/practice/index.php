@@ -1,4 +1,10 @@
-<!doctype html>
+<?php
+
+session_start();
+
+?>
+
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -14,33 +20,17 @@
     <b id="subtitle">Do your best to answer these questions!</b>
     </div>
     <br><br>
-    <form id="form" method="get">
-        
-        <div id="question1">
-            <h3><u>Question 1</u></h3>
-            <text>What is 2 + 2?</text><br>
-            <input value="" type="number" name="answer1">
-        </div>
-        <br>
-        
-        <div id="question2">
-            <h3><u>Question 2</u></h3>
-            <text>What is 2 + 3?</text><br>
-            <input value="" type="number" name="answer2">
-        </div>
-        <br><br>
-        
-        <div id="email">
-            <b>Please enter your email</b>
-            <br>
-            <input value="" type="text" name="name" placeHolder="email@address.com">
-            <br>
-        </div>
-        <br>
+    <form id="quiz-form">
+        <h3><u>Question 1</u></h3>
+        What is 2 + 2?<br>
+        <input type="number" name="question1" size="5"/>
+        <div id="question1-feedback" class="response"></div>
 
-        <input id="submit" type="submit" value="Submit Form"/>
+
+        <br />
+        <input type="submit" value="Submit" />
         
     </form>
-    <script src="js/scripts.js"></script>
+    <script src="js/scripts2.js"></script>
 </body>
 </html>
