@@ -1,6 +1,6 @@
 <?php
-echo "test";
 showAllProducts();
+echo "test";
 function showAllProducts()
 {
    //You may have to update this to connect.php depending on your heroku setup. 
