@@ -3,7 +3,6 @@ showAllProducts();
 function showAllProducts()
 {
    //You may have to update this to connect.php depending on your heroku setup. 
-   try{
       include "dbConnection.php";
       $conn = getDBConnection();
       $sql = "SELECT senId, sen_firstName, sen_lastName, state, imgURL, price, party
@@ -16,9 +15,5 @@ function showAllProducts()
       
       echo json_encode($products);
    
-   }catch(Exception $e) {
-      $res->okay = "error";
-   }
-      
 }
 ?>
