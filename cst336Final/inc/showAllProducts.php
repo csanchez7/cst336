@@ -1,4 +1,5 @@
 <?php
+echo "test";
 showAllProducts();
 function showAllProducts()
 {
