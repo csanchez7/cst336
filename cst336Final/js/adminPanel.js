@@ -210,4 +210,3 @@ $("#most-expensive-product").click(function() {
 $("#submit-new").click(function() {
    submitNewProduct();
 });
-
