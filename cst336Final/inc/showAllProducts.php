@@ -1,8 +1,8 @@
 <?php
 showAllProducts();
-echo "test";
 function showAllProducts()
 {
+   echo "test";
    //You may have to update this to connect.php depending on your heroku setup. 
    include "dbConnection.php";
    $conn = getDBConnection();
