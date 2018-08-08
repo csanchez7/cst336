@@ -24,8 +24,8 @@ echo "Carlos Sanchez CST336 Internet Programming";
     <a href="labs/lab7/">Lab 7</a>
     <br />
     <a href="labs/lab8/">Lab 8</a>
-    <
-    h3>Homework</h3>
+    
+    <h3>Homework</h3>
     <a href="hw/hw1/">HW 1</a>
     <br />
     <a href="hw/hw2/">HW 2</a>
@@ -36,5 +36,7 @@ echo "Carlos Sanchez CST336 Internet Programming";
 
     <br />
     <a href="cst336Final/index.php">Final Project</a>
+    <br />
+    <a href="cst336Final/">Final Project</a>
 </body>
 </html>
