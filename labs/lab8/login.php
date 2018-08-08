@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1>Login</h1>
-        <h2>Credentials required before submiting form.</h2>
+        <h2>Credentials required before submitting form.</h2>
         <p>You can log in using usernames <strong>user_1</strong> or <strong>user_2</strong>. The password is <strong>s3cr3t</strong>.</p>
         
         <!--Form to enter credentials-->

@@ -17,7 +17,7 @@ $user = $stmt->fetch(PDO::FETCH_ASSOC);
 //redirecting user to quiz if credentials are valid
 if(isset($user['username'])){
     $_SESSION['username'] = $user['username'];
-    header('Location:index.php');
+    header('Location: index.php');
     }else {
     echo "The values you entered were incorrect.
     <a href='login.php' >Retry</a>";
