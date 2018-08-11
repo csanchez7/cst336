@@ -1,0 +1,22 @@
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100px;
+}
+
+#main{
+  text-align: center;
+  color:#339966;
+  padding-top: 20px;
+}
+
+form{
+  width: 50%;
+  margin: auto;
+}
+
+p{
+  color:blue;
+}
