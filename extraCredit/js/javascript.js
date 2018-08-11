@@ -45,14 +45,13 @@ function ajaxDB(city){
       type: 'POST',
       url: 'inc/addCity.php',
       data:{city:city},
-    //   dataType: 'json',
+      dataType: 'json',
       success: function(dbInfo){
-          console.log(dbInfo);
-        //   for(var i = 0; i < cityInfo.length; i++) {
-        //     if (!cityInfo[i].city==""){
-        //         $('#cityCount').append(dbInfo[i].times);
-        //     }
-        //  }
+          for(var i = 0; i < dbInfo.length; i++) {
+            if (dbInfo[i].city==city){
+                $('#cityCount').append(dbInfo[i].times);
+            }
+         }
       },
       error: function(){
           console.log("error ajaxDB");
