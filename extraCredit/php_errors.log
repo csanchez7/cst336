@@ -1,0 +1,216 @@
+[11-Aug-2018 18:57:25 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 18:57:25 UTC] PHP Stack trace:
+[11-Aug-2018 18:57:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 18:57:25 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 18:57:25 UTC] PHP Stack trace:
+[11-Aug-2018 18:57:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 18:57:25 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 18:57:25 UTC] PHP Stack trace:
+[11-Aug-2018 18:57:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:02:38 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:02:38 UTC] PHP Stack trace:
+[11-Aug-2018 19:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:02:38 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:02:38 UTC] PHP Stack trace:
+[11-Aug-2018 19:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:02:38 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:02:38 UTC] PHP Stack trace:
+[11-Aug-2018 19:02:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:03:52 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:03:52 UTC] PHP Stack trace:
+[11-Aug-2018 19:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:03:52 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:03:52 UTC] PHP Stack trace:
+[11-Aug-2018 19:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:03:52 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:03:52 UTC] PHP Stack trace:
+[11-Aug-2018 19:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:05:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:05:51 UTC] PHP Stack trace:
+[11-Aug-2018 19:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:05:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:05:51 UTC] PHP Stack trace:
+[11-Aug-2018 19:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:05:51 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:05:51 UTC] PHP Stack trace:
+[11-Aug-2018 19:05:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:08:36 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:08:36 UTC] PHP Stack trace:
+[11-Aug-2018 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:08:36 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:08:36 UTC] PHP Stack trace:
+[11-Aug-2018 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:08:36 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:08:36 UTC] PHP Stack trace:
+[11-Aug-2018 19:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:08:40 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:08:40 UTC] PHP Stack trace:
+[11-Aug-2018 19:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:08:40 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:08:40 UTC] PHP Stack trace:
+[11-Aug-2018 19:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:08:40 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:08:40 UTC] PHP Stack trace:
+[11-Aug-2018 19:08:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:09:13 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:09:13 UTC] PHP Stack trace:
+[11-Aug-2018 19:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:09:13 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:09:13 UTC] PHP Stack trace:
+[11-Aug-2018 19:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:09:13 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:09:13 UTC] PHP Stack trace:
+[11-Aug-2018 19:09:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:10:35 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:10:35 UTC] PHP Stack trace:
+[11-Aug-2018 19:10:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:10:35 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:10:35 UTC] PHP Stack trace:
+[11-Aug-2018 19:10:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:10:35 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:10:35 UTC] PHP Stack trace:
+[11-Aug-2018 19:10:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:10:46 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:10:46 UTC] PHP Stack trace:
+[11-Aug-2018 19:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:10:46 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:10:46 UTC] PHP Stack trace:
+[11-Aug-2018 19:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:10:46 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:10:46 UTC] PHP Stack trace:
+[11-Aug-2018 19:10:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:11:11 UTC] PHP Warning:  include(..dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:11:11 UTC] PHP Stack trace:
+[11-Aug-2018 19:11:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:11:11 UTC] PHP Warning:  include(): Failed opening '..dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:11:11 UTC] PHP Stack trace:
+[11-Aug-2018 19:11:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:11:11 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:11:11 UTC] PHP Stack trace:
+[11-Aug-2018 19:11:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:11:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(12): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 12
+[11-Aug-2018 19:14:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'heroku_877265a5f2e6a4b.citycount' doesn't exist' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:32:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:33:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:33:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:36:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:36:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:37:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:39:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 10
+[11-Aug-2018 19:40:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('anaheim')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:42:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('hollywood')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:43:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('santa ana')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:46:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('anaheim')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:48:05 UTC] PHP Warning:  include(/inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:48:05 UTC] PHP Stack trace:
+[11-Aug-2018 19:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:48:05 UTC] PHP Warning:  include(): Failed opening '/inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 2
+[11-Aug-2018 19:48:05 UTC] PHP Stack trace:
+[11-Aug-2018 19:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:48:05 UTC] PHP Fatal error:  Call to undefined function getDBConnection() in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 3
+[11-Aug-2018 19:48:05 UTC] PHP Stack trace:
+[11-Aug-2018 19:48:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:0
+[11-Aug-2018 19:49:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('hollywood')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:52:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:52:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('anaheim')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:52:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('anaheim')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:53:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('hollywood')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:54:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('santa ana')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:56:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('anaheim')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9
+[11-Aug-2018 19:57:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Ccity)
+            VALUES ('anaheim')' at line 1' in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/extraCredit/inc/addCity.php on line 9

@@ -36,5 +36,7 @@ echo "Carlos Sanchez CST336 Internet Programming";
 
     <br />
     <a href="cst336Final/index.php">Final Project</a>
+    <br />
+    <a href="cst336/extraCredit">Extra Credit</a>
     </body>
 </html>

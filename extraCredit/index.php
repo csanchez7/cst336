@@ -1,5 +1,8 @@
-<!doctype html>
+<?php
+session_start();
+?>
 
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -25,13 +28,10 @@
                 </div>
             </form>
         
-            <p>Results: <strong><span class="query"></span></strong></p>
-        
-            <hr>
-        
-            <div class="results-area">
-                <ul class="results group"></ul>
-            </div>
+            <p><u>Results: </u>
+            <strong><span class="query"></span></strong>
+            </p>
+            
         </div>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script src="js/javascript.js"></script>
